@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "./header/stringL.h"
 
 int main(void) {
-    printf("Hello, World!\n");
-    return 0;
+    char* nume = "Bogdan";
+    int max_size = return_max_size(nume);
+    printf("%d",max_size);
 }
